@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <!--        left-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:background="@drawable/bg_black_right_border_rectangle">
+
+            <!--        top-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/completed_task_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Maths lesson 1"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="18sp"
+                    android:gravity="center_horizontal|center"
+                    android:background="@drawable/bg_black_bottom_border_rectangle">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/completed_task_id"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp">
+                </TextView>
+
+            </LinearLayout>
+
+            <!--        bottom-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <!--            deadline-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_black_right_border_rectangle">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/CompletedTasks_deadline"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="18sp"
+                        android:gravity="center_horizontal|center">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/completed_task_deadline"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="2021-12-01"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="18sp"
+                        android:gravity="center_horizontal|center">
+                    </TextView>
+
+                </LinearLayout>
+
+                <!--            remaining days-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_black_right_border_rectangle">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/CompletedTasks_completed_on"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textSize="18sp"
+                        android:gravity="center_horizontal|center">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/completed_on"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="2021-12-01"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="18sp"
+                        android:gravity="center_horizontal|center">
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

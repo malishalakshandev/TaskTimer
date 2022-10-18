@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TaskTimer</string>
+
+    <!--    Home-->
+    <string name="Home_title">Task Timer</string>
+    <string name="Home_btn_create_task">CREATE TASK</string>
+    <string name="Home_pending_task">PENDING TASKS</string>
+    <string name="Home_completed_tasks">COMPLETED TASKS</string>
+
+    <!--    Create task-->
+    <string name="CreateTask_title">Create Task</string>
+    <string name="CreateTask_hint_task_name">Task name</string>
+    <string name="CreateTask_hint_deadline_date">Deadline (2021-01-01)</string>
+    <string name="CreateTask_tv_task_time">Task time</string>
+    <string name="CreateTask_btn_save">SAVE</string>
+
+    <!--    Pending Tasks-->
+    <string name="PendingTasks_title">Pending Tasks</string>
+    <string name="PendingTasks_deadline">Deadline</string>
+    <string name="PendingTasks_task_time">Task Time</string>
+    <string name="PendingTasks_btn_home">HOME</string>
+
+    <!--    Start Tasks-->
+    <string name="StartTask_btn_sart">START</string>
+    <string name="StartTask_btn_done">DONE</string>
+
+    <!--    Completed Tasks-->
+    <string name="CompletedTasks_title">Completed Tasks</string>
+    <string name="CompletedTasks_deadline">Deadline</string>
+    <string name="CompletedTasks_completed_on">Completed On</string>
+    <string name="CompletedTasks_btn_home">HOME</string>
+
+</resources>
